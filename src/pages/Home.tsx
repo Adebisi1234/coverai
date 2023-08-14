@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 const Home = () => {
   return (
-    <div className="bg-white/50 flex">
+    <div className="bg-[#fafbfc] flex">
       <Sidebar />
       <main>
         <Header />
@@ -16,10 +16,10 @@ const Home = () => {
             </p>
           </div>
           <div className="main mx-auto w-[1132px] py-4 pb-[151px] flex h-[471px] flex-col items-center gap-[82px] bg-[#fff] border-[#e6e6e6] rounded-[16px]">
-            <div className="head flex w-full justify-between h-[52px]">
+            <div className="head flex w-full justify-between h-[52px] border-b-[#EAEDEF]">
               <div className="flex gap-2">
                 <h3>Getting Started</h3>
-                <button className="bg-black/10 p-1 rounded-lg">
+                <button className="bg-black/10 p-1 rounded-lg text-[#00085A]">
                   Step 1 out of 4
                 </button>
               </div>

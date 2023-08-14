@@ -1,7 +1,7 @@
 const Sidebar = () => {
   return (
     <aside className="w-[212px] bg-white p-4 flex flex-col gap-[50px] border border-[#e1e2e6]">
-      <div className="head flex gap-2">
+      <div className="head flex mt-3 gap-2 justify-center items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="26"
