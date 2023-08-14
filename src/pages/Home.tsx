@@ -25,19 +25,19 @@ const Home = () => {
                   Step 1 out of 4
                 </button>
               </div>
-              <div className="buttons flex">
+              <div className="buttons flex items-center">
                 <p className="rounded-full h-6 w-6 bg-[#563bdb] text-white flex justify-center items-center">
                   1
                 </p>
-                <hr className="w-2 bg-[#f2f3f7]" />
+                <hr className="w-2 h-1 bg-[#f2f3f7]" />
                 <p className="rounded-full flex justify-center items-center h-6 w-6 bg-[#f2f3f7] ">
                   2
                 </p>
-                <hr className="w-2 bg-[#f2f3f7]" />
+                <hr className="w-2 h-1 bg-[#f2f3f7]" />
                 <p className="rounded-full flex justify-center items-center h-6 w-6 bg-[#f2f3f7] ">
                   3
                 </p>
-                <hr className="w-2 bg-[#f2f3f7]" />
+                <hr className="w-2 h-1 bg-[#f2f3f7]" />
                 <p className="rounded-full flex justify-center items-center h-6 w-6 bg-[#f2f3f7] ">
                   4
                 </p>
