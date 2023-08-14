@@ -19,10 +19,14 @@ const Home = () => {
             <div className="head flex w-full justify-between h-[52px]">
               <div className="flex gap-2">
                 <h3>Getting Started</h3>
-                <button className="bg-black/10">Step 1 out of 4</button>
+                <button className="bg-black/10 p-1 rounded-lg">
+                  Step 1 out of 4
+                </button>
               </div>
               <div className="buttons flex gap-2">
-                <p className="rounded-full h-6 w-6 ">1</p>
+                <p className="rounded-full h-6 w-6 bg-[#563bdb] text-white">
+                  1
+                </p>
                 <p className="rounded-full h-6 w-6 ">2</p>
                 <p className="rounded-full h-6 w-6 ">3</p>
                 <p className="rounded-full h-6 w-6 ">4</p>
