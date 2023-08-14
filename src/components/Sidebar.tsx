@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <aside className="w-[212px] bg-white p-4 flex gap-[50px] border border-[#e1e2e6]">
+    <aside className="w-[212px] bg-white p-4 flex flex-col gap-[50px] border border-[#e1e2e6]">
       <div className="head">
         <svg
           xmlns="http://www.w3.org/2000/svg"

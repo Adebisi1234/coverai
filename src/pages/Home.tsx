@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 const Home = () => {
   return (
-    <div className="bg-white/50">
+    <div className="bg-white/50 flex">
       <Sidebar />
       <main>
         <Header />

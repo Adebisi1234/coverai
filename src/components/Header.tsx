@@ -9,12 +9,12 @@ const Header = () => {
         </button>
       </div>
 
-      <div className="details w-[271px] h-[28px] flex items-center gap-3">
-        <p className="flex items-start gap-1 text-[#3f4e72]">
-          Credit left: <span>10</span> <img src="/vite.svg" alt="token" />
+      <div className="details h-[28px] flex items-center gap-3">
+        <p className="flex items-start w-fit gap-1 text-[#3f4e72]">
+          Credit left: <span>10</span> <img src="/token.png" alt="token" />
         </p>
 
-        <p className="px-[10px] py-1 rounded-[100px] bg-[rgba(63,78,114,0.27)] text-[#3f4e72]">
+        <p className="px-[10px] py-1 w-fit rounded-[100px] bg-[rgba(63,78,114,0.27)] text-[#3f4e72]">
           Free plan
         </p>
         <div className="icon notification mx-1">
@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         <p className="w-[1px] bg-[#917aff]"></p>
         <div className="account">
-          <img src="/vite.svg" alt="" width={24} height={24} />
+          <img src="/bye.svg" alt="" width={24} height={24} />
         </div>
       </div>
     </header>
