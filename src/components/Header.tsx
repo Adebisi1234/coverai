@@ -9,8 +9,8 @@ const Header = () => {
         </button>
       </div>
 
-      <div className="details h-[28px] flex items-center justify-center gap-3">
-        <p className="flex items-start w-fit gap-1 text-[#3f4e72]">
+      <div className="details h-[28px] flex center gap-3">
+        <p className="flex w-fit gap-1 text-[#3f4e72] items-center justify-">
           Credit left: <span>10</span> <img src="/token.png" alt="token" />
         </p>
 

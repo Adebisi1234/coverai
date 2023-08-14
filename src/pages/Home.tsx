@@ -24,12 +24,18 @@ const Home = () => {
                 </button>
               </div>
               <div className="buttons flex gap-2">
-                <p className="rounded-full h-6 w-6 bg-[#563bdb] text-white">
+                <p className="rounded-full h-6 w-6 bg-[#563bdb] text-white flex justify-center items-center">
                   1
                 </p>
-                <p className="rounded-full h-6 w-6 ">2</p>
-                <p className="rounded-full h-6 w-6 ">3</p>
-                <p className="rounded-full h-6 w-6 ">4</p>
+                <p className="rounded-full flex justify-center items-center h-6 w-6 ">
+                  2
+                </p>
+                <p className="rounded-full flex justify-center items-center h-6 w-6 ">
+                  3
+                </p>
+                <p className="rounded-full flex justify-center items-center h-6 w-6 ">
+                  4
+                </p>
               </div>
             </div>
             <div className="text-center mt-[82px] mx-auto w-[375px] h-[170px] flex flex-col items-center gap-10">
