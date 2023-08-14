@@ -15,7 +15,7 @@ const Home = () => {
               It's time to land your next role. Let's get to it
             </p>
           </div>
-          <div className="main mx-auto w-[1132px] py-4 mb-[151px] flex h-[471px] flex-col items-center gap-[82px] bg-[#fff] border-[#e6e6e6] rounded-[16px]">
+          <div className="main mx-auto w-[1132px] py-4 mb-[151px] pb-[146px] flex h-[471px] flex-col items-center gap-[82px] bg-[#fff] border-[#e6e6e6] rounded-[16px]">
             <div className="head flex w-full justify-between h-[52px] border-b-2 px-6 pb-4">
               <div className="flex gap-2 items-start">
                 <h3 className="text-lg font-medium leading-[36px]">
@@ -25,16 +25,19 @@ const Home = () => {
                   Step 1 out of 4
                 </button>
               </div>
-              <div className="buttons flex gap-2">
+              <div className="buttons flex">
                 <p className="rounded-full h-6 w-6 bg-[#563bdb] text-white flex justify-center items-center">
                   1
                 </p>
+                <hr className="w-2 bg-[#f2f3f7]" />
                 <p className="rounded-full flex justify-center items-center h-6 w-6 bg-[#f2f3f7] ">
                   2
                 </p>
+                <hr className="w-2 bg-[#f2f3f7]" />
                 <p className="rounded-full flex justify-center items-center h-6 w-6 bg-[#f2f3f7] ">
                   3
                 </p>
+                <hr className="w-2 bg-[#f2f3f7]" />
                 <p className="rounded-full flex justify-center items-center h-6 w-6 bg-[#f2f3f7] ">
                   4
                 </p>

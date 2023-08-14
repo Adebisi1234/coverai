@@ -42,7 +42,7 @@ const Header = () => {
             />
           </svg>
         </div>
-        <p className="w-[1px] bg-[#917aff]"></p>
+        <p className="w-[1px] bg-[#917aff] h-full"></p>
         <div className="account">
           <img src="/bye.png" alt="" width={24} height={24} />
         </div>
