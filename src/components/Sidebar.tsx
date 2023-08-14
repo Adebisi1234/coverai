@@ -1,7 +1,7 @@
 const Sidebar = () => {
   return (
     <aside className="w-[212px] bg-white p-4 flex flex-col gap-[50px] border border-[#e1e2e6]">
-      <div className="head flex mt-3 gap-2 justify-center items-center">
+      <div className="head flex mt-3 gap-2 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="26"
@@ -28,12 +28,12 @@ const Sidebar = () => {
       </div>
       <section className="flex flex-col justify-between h-full">
         <div className="links">
-          <ul>
-            <li className="flex items-center gap-1 hover:border-l-4  hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+          <ul className="w-[180px]">
+            <li className="flex items-center gap-1 hover:border-l-4  hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <img src="/image26.png" alt="logo" width={16} height={16} />
-              <p className="text-sm leading-5 text-[#060809]">Dashboard</p>
+              <p className="text-sm leading-5">Dashboard</p>
             </li>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -61,9 +61,9 @@ const Sidebar = () => {
                   fill="#917AFF"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">Coverletters</p>
+              <p className="text-sm leading-5">Coverletters</p>
             </li>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -81,9 +81,9 @@ const Sidebar = () => {
                   fill="#1C1C1C"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">CV/Resume</p>
+              <p className="text-sm leading-5">CV/Resume</p>
             </li>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -115,9 +115,9 @@ const Sidebar = () => {
                   fill="#04050F"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">Interview Prep</p>
+              <p className="text-sm leading-5">Interview Prep</p>
             </li>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -135,9 +135,9 @@ const Sidebar = () => {
                   fill="#1C1C1C"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">Contacts</p>
+              <p className="text-sm leading-5">Contacts</p>
             </li>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -155,13 +155,13 @@ const Sidebar = () => {
                   fill="#1C1C1C"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">Job Tracker</p>
+              <p className="text-sm leading-5">Job Tracker</p>
             </li>
           </ul>
         </div>
         <div className="settings">
-          <ul>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+          <ul className="w-[180px]">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -179,9 +179,9 @@ const Sidebar = () => {
                   fill="#1C1C1C"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">Get Extension</p>
+              <p className="text-sm leading-5">Get Extension</p>
             </li>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -219,9 +219,9 @@ const Sidebar = () => {
                   fill-opacity="0.1"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">Refer & Earn</p>
+              <p className="text-sm leading-5">Refer & Earn</p>
             </li>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -248,9 +248,9 @@ const Sidebar = () => {
                   fill="#04050F"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">Help & Support</p>
+              <p className="text-sm leading-5">Help & Support</p>
             </li>
-            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb90] hover:border-l-[#563bdb] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
+            <li className="flex items-center gap-1 hover:border-l-4 hover:!bg-[#572bdb5a] hover:border-l-[#563bdb] text-[#060809] hover:!text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -271,7 +271,7 @@ const Sidebar = () => {
                   fill="#04050F"
                 />
               </svg>
-              <p className="text-sm leading-5 text-[#060809]">Log out</p>
+              <p className="text-sm leading-5">Log out</p>
             </li>
           </ul>
         </div>
