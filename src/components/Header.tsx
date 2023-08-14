@@ -9,7 +9,7 @@ const Header = () => {
         </button>
       </div>
 
-      <div className="details h-[28px] flex items-center gap-3">
+      <div className="details h-[28px] flex items-center justify-center gap-3">
         <p className="flex items-start w-fit gap-1 text-[#3f4e72]">
           Credit left: <span>10</span> <img src="/token.png" alt="token" />
         </p>
@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         <p className="w-[1px] bg-[#917aff]"></p>
         <div className="account">
-          <img src="/bye.svg" alt="" width={24} height={24} />
+          <img src="/bye.png" alt="" width={24} height={24} />
         </div>
       </div>
     </header>

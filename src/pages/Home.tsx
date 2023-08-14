@@ -41,10 +41,10 @@ const Home = () => {
                 </p>
               </div>
               <div className="button h-[56px] w-[314px] flex gap-2">
-                <button className="rounded-xl flex py-[18px] w-[153px] bg-[#563bdb] text-white">
+                <button className="rounded-xl flex justify-center items-center py-[18px] w-[153px] bg-[#563bdb] text-white">
                   New CV/Resume
                 </button>
-                <button className="rounded-xl border-2 flex py-[18px] w-[153px] bg-white text-[#563bdb] ">
+                <button className="rounded-xl border-2 flex justify-center items-center py-[18px] w-[153px] bg-white text-[#563bdb] ">
                   New Coverletter
                 </button>
               </div>
