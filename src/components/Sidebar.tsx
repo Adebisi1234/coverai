@@ -1,7 +1,7 @@
 const Sidebar = () => {
   return (
     <aside className="w-[212px] bg-white p-4 flex flex-col gap-[50px] border border-[#e1e2e6]">
-      <div className="head">
+      <div className="head flex gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="26"
@@ -26,7 +26,7 @@ const Sidebar = () => {
           Coverai
         </h1>
       </div>
-      <section className="flex justify-between h-full">
+      <section className="flex flex-col justify-between h-full">
         <div className="links">
           <ul>
             <li className="flex items-center gap-1 hover:border-l-4 hover:bg-[rgba(87, 43, 219, 0.10)] hover:border-l-[#563bdb] hover:text-[#563bdb] h-7 rounded-[3px] mb-4 p-3">

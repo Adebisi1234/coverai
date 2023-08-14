@@ -32,7 +32,7 @@ const Home = () => {
               <div>
                 <h2 className="font-bold">Get Familiar with Accountable</h2>
                 <p>
-                  Let's get you started with Accountable throught a simple
+                  Let's get you started with Accountable through a simple
                   walkthrough guide that explains how it works
                 </p>
               </div>
