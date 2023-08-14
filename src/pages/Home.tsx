@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className="text-[28px] font-semibold leading-[145%] text-[#060809]">
               Hello, Chris!
             </h1>
-            <p className="text-[#414141]">
+            <p className="text-[#414141] text-sm leading-[145%]">
               It's time to land your next role. Let's get to it
             </p>
           </div>
