@@ -15,8 +15,8 @@ const Home = () => {
               It's time to land your next role. Let's get to it
             </p>
           </div>
-          <div className="main mx-auto w-[1132px] py-4 pb-[151px] flex h-[471px] flex-col items-center gap-[82px] bg-[#fff] border-[#e6e6e6] rounded-[16px]">
-            <div className="head flex w-full justify-between h-[52px] border-b-[#EAEDEF]">
+          <div className="main mx-auto w-[1132px] py-4 mb-[151px] flex h-[471px] flex-col items-center gap-[82px] bg-[#fff] border-[#e6e6e6] rounded-[16px]">
+            <div className="head flex w-full justify-between h-[52px] border-b-2">
               <div className="flex gap-2">
                 <h3>Getting Started</h3>
                 <button className="bg-black/10 p-1 rounded-lg text-[#00085A]">
