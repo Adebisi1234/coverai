@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header className="px-10 py-5 flex justify-between items-center h-[72px] mb-4">
       <div className="location">
-        <button className="flex gap-1">
+        <button className="flex gap-1 items-center">
           <p className="px-2 py-1 rounded-lg text-black/40">Coverletters</p>
           <span>/</span>
           <p className="px-2 py-1 rounded-lg text-[#060809]">Home</p>
